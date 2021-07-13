@@ -1,0 +1,8 @@
+name: secrets
+description: "Use s3keyring to get secrets from s3 in eks deployments"
+author: 'David Stiven'
+branding:
+  color: 'green'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
